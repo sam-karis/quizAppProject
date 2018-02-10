@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">quizAppProject</string>
+    <string name="test_title">Computer Science Test</string>
+    <string name="userName_hint">Enter Your Name</string>
+    <string name="userEmail_hint">Enter Your Email</string>
+    <string name="quiz_one">Which of the following is a programming language ?</string>
+    <string name="quiz_one_a">Python</string>
+    <string name="quiz_one_b">HTML</string>
+    <string name="quiz_one_c">Ruby</string>
+    <string name="quiz_one_d">SmallTalk</string>
+    <string name="quiz_one_e">CSS</string>
+    <string name="quiz_two">A person who design, develop and deploy software is known as ?</string>
+    <string name="quiz_two_a">Programmer</string>
+    <string name="quiz_two_b">Software Engineer</string>
+    <string name="quiz_two_c">Computer Scientist</string>
+    <string name="quiz_two_d">Developer</string>
+    <string name="quiz_three">Declare a string variable named userName whose value is Joan using Java programming syntax ?</string>
+    <string name="quiz_three_ans_hint">Write code syntax here</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="quiz_four">Which of the following is not a database software program ?</string>
+    <string name="quiz_four_a">MySQL</string>
+    <string name="quiz_four_b">IBM DB2</string>
+    <string name="quiz_four_c">Oracle</string>
+    <string name="quiz_four_d">Microsoft Excel</string>
+    <string name="quiz_four_e">QiuckBase</string>
+    <string name="quiz_four_f">Microsoft Access</string>
+    <string name="quiz_four_g">GitHub Desktop</string>
+</resources>
