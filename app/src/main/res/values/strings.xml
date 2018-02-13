@@ -1,8 +1,16 @@
 <resources>
     <string name="app_name">quizAppProject</string>
     <string name="test_title">Computer Science Test</string>
-    <string name="userName_hint">Enter Your Name</string>
+    <string name="description">Test for junior computer scientist\n
+        The test evaluate\'s understanding of the following topics :-\n
+        Programing\nWeb Development\nDatabases</string>
+    <string name="next_button">Next</string>
+    <string name="personal_info_title">Personal Details</string>
+    <string name="start_button">Start</string>
+    <string name="firstName_hint">First Name</string>
+    <string name="lastName_hint">Last Name</string>
     <string name="userEmail_hint">Enter Your Email</string>
+    <string name="quiz_title">Test</string>
     <string name="quiz_one">Which of the following is a programming language ?</string>
     <string name="quiz_one_a">Python</string>
     <string name="quiz_one_b">HTML</string>
@@ -25,4 +33,5 @@
     <string name="quiz_four_e">QiuckBase</string>
     <string name="quiz_four_f">Microsoft Access</string>
     <string name="quiz_four_g">GitHub Desktop</string>
+    <string name="title_activity_entry">EntryActivity</string>
 </resources>
