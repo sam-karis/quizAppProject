@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -82,21 +81,25 @@
                 android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/quiz_two_choice_a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/quiz_two_d" />
 
                 <RadioButton
+                    android:id="@+id/quiz_two_choice_b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/quiz_two_a" />
 
                 <RadioButton
+                    android:id="@+id/quiz_two_choice_c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/quiz_two_b" />
 
                 <RadioButton
+                    android:id="@+id/quiz_two_choice_d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/quiz_two_c" />
@@ -136,60 +139,86 @@
                 android:textSize="16sp" />
 
             <CheckBox
+                android:id="@+id/quiz_four_choice_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/quiz_four_a" />
 
             <CheckBox
+                android:id="@+id/quiz_four_choice_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/quiz_four_b" />
 
             <CheckBox
+                android:id="@+id/quiz_four_choice_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/quiz_four_c" />
 
             <CheckBox
+                android:id="@+id/quiz_four_choice_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/quiz_four_d" />
 
             <CheckBox
+                android:id="@+id/quiz_four_choice_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/quiz_four_e" />
 
             <CheckBox
+                android:id="@+id/quiz_four_choice_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/quiz_four_f" />
 
             <CheckBox
+                android:id="@+id/quiz_four_choice_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/quiz_four_g" />
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/submit_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="16dp"
-            android:background="#93de5a"
-            android:onClick="submitTest"
-            android:text="@string/submit_button_text" />
-
         <TextView
             android:id="@+id/result_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Results"
+            android:text="@string/show_results_text_view"
             android:textColor="@color/colorPrimary"
             android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:background="#93de5a"
+                android:onClick="submitTest"
+                android:text="@string/submit_button_text" />
+
+            <Button
+                android:id="@+id/report_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:background="#93de5a"
+                android:onClick="reportButton"
+                android:text="@string/report_button_text"
+                tools:ignore="ButtonStyle" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

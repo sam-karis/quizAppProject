@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 
-import java.util.Collection;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -16,6 +14,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * The function create an intent that start the personal activity
+     *
+     * @param view - view
+     */
     public void nextButton(View view) {
         Intent intent = new Intent(this, PersonalActivity.class);
         startActivity(intent);

@@ -11,12 +11,12 @@
     <string name="lastName_hint">Last Name</string>
     <string name="userEmail_hint">Enter Your Email</string>
     <string name="quiz_title">Test</string>
-    <string name="quiz_one">Which of the following is a programming language ?</string>
+    <string name="quiz_one">Which of the following is not a programming language ?</string>
     <string name="quiz_one_a">Python</string>
     <string name="quiz_one_b">HTML</string>
     <string name="quiz_one_c">Ruby</string>
     <string name="quiz_one_d">SmallTalk</string>
-    <string name="quiz_one_e">CSS</string>
+    <string name="quiz_one_e">Java</string>
     <string name="quiz_two">A person who design, develop and deploy software is known as ?</string>
     <string name="quiz_two_a">Programmer</string>
     <string name="quiz_two_b">Software Engineer</string>
@@ -24,7 +24,11 @@
     <string name="quiz_two_d">Developer</string>
     <string name="quiz_three">Declare a string variable named userName whose value is Joan using Java programming syntax ?</string>
     <string name="quiz_three_ans_hint">Write code syntax here</string>
+    <string name="quiz_three_ans">String userName = \'Joan\'\;</string>
+    <string name="quiz_three_ans_a">String userName = \"Joan\"\;</string>
+    <string name="show_results_text_view"></string>
     <string name="submit_button_text">Submit</string>
+    <string name="report_button_text">Report</string>
     <string name="quiz_four">Which of the following is not a database software program ?</string>
     <string name="quiz_four_a">MySQL</string>
     <string name="quiz_four_b">IBM DB2</string>
@@ -34,4 +38,9 @@
     <string name="quiz_four_f">Microsoft Access</string>
     <string name="quiz_four_g">GitHub Desktop</string>
     <string name="title_activity_entry">EntryActivity</string>
+    <string name="report_activity_title">Test Report</string>
+    <string name="report_message_view">Your scored : </string>
+    <string name="total_marks_gained_view">0</string>
+    <string name="total_marks_view">Percentage</string>
+    <string name="save_button_view">Save</string>
 </resources>
