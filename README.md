@@ -11,4 +11,4 @@ For the first time you open the activity a page/ view with a title and a short d
 The view has a next button that take you to the next view.
 The view appears as show below:-   
 #### Getting Started  
-<img src ="screenShots\quiz_app_description.png" height = "400",alt= "ScreenShots"/>   
+<img src ="screenShots\quiz_app_description.png" alt= "ScreenShots"/>   
