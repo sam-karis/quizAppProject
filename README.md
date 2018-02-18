@@ -18,9 +18,13 @@ The view appears as show below:-
    
 After clicking the next button in the above description view above the user is prompted to enter 
 his / her personal details as shown below :-  
-on right before filling the details and left after filling the details.   
+
+Before filling the details    
     
-<img src ="screenShots\quiz_app_personal_details_not_filled.png" height= "400" alt= "ScreenShots"/>
+<img src ="screenShots\quiz_app_personal_details_not_filled.png" height= "400" alt= "ScreenShots"/>   
+   
+After filling the details.   
+  
 <img src ="screenShots\quiz_app_personal_details_filled.png" height= "400" alt= "ScreenShots"/>   
 
 #### Start Test  
