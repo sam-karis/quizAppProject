@@ -15,19 +15,23 @@ The view appears as show below:-
 <img src ="screenShots\quiz_app_description.png" height= "400" alt= "ScreenShots"/>   
 
 #### Enter personal Details  
+   
 After clicking the next button in the above description view above the user is prompted to enter 
 his / her personal details as shown below :-  
 on right before filling the details and left after filling the details.   
+    
 <img src ="screenShots\quiz_app_personal_details_not_filled.png" height= "400" alt= "ScreenShots"/>
 <img src ="screenShots\quiz_app_personal_details_filled.png" height= "400" alt= "ScreenShots"/>   
 
 #### Start Test  
 Now after entering the user name the Start button become active which when clicked it takes one to
  the next page where the user answers the questions as shown below :-     
+    
  <img src ="screenShots\quiz_app_test_before_submit_1.png" height= "400" alt= "ScreenShots"/>
  <img src ="screenShots\quiz_app_test_before_submit_2.png" height= "400" alt= "ScreenShots"/>   
    
-After submitting the answers the app marks the right answers and change the text color as shown below:-    
+After submitting the answers the app marks the right answers and change the text color as shown below:-   
+     
  <img src ="screenShots\quiz_app_test_after_submit_1.png" height= "400" alt= "ScreenShots"/>
  <img src ="screenShots\quiz_app_test_after_submit_2.png" height= "400" alt= "ScreenShots"/>    
  
@@ -35,7 +39,12 @@ After submitting the answers the app marks the right answers and change the text
 After clicking the submit button the test is evaluated and the results shown at the bottom and a 
 Toast message to congratulate the user for finishing the test as shown above.  
 After submitting the test the report button become active and one can click it to see his / her 
-score for the test as below :-  
+score for the test as below :-    
+     
  <img src ="screenShots\quiz_app_report.png" height= "400" alt= "ScreenShots"/>    
  
  ### To Do
+ 
+ * Add More questions
+ * Add functionality to save the data for future reference
+ * Add functionality to send the test result to user email automatically
