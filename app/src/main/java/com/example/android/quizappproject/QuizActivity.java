@@ -77,7 +77,7 @@ public class QuizActivity extends AppCompatActivity {
      * @return the points scored from the quiz 0ne
      */
     public int markQuizOne() {
-        String correctAnsQuizOne = getString(R.string.quiz_one_e);
+        String correctAnsQuizOne = getString(R.string.quiz_one_b);
         boolean isAChecked = getCheckBoxStatus(R.id.quiz_one_choice_a, correctAnsQuizOne);
         boolean isBChecked = getCheckBoxStatus(R.id.quiz_one_choice_b, correctAnsQuizOne);
         boolean isCChecked = getCheckBoxStatus(R.id.quiz_one_choice_c, correctAnsQuizOne);
