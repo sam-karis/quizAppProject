@@ -34,7 +34,7 @@
             android:id="@+id/lastName_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/firstName_hint" />
+            android:hint="@string/lastName_hint" />
 
         <EditText
             android:id="@+id/userEmail_editText"
